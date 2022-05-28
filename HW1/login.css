@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin:80px;
+  
+}
+  
+p {
+  margin: 0.3em;
+}
+
+  
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color:black;
+  font:10px;  
+}
+
+  
+input {
+  margin-left: 0.5em;
+}
+
+  
+.error {
+  color: red;
+}
+
+.campi{
+  display: none;
+}
+
+.password{
+  display: none;
+}
+
+body{
+  text-align: center;
+}
+
+#registrazione{
+  margin-bottom: 40px;
+}
+
+
+#submit{
+  text-align: center;
+  background-color:  rgb(221, 184, 139);
+  color: #fff;              
+  padding:10px;
+}

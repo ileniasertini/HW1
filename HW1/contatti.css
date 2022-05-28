@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(252, 244, 233);
+    font-size: 16px ;
+    margin: 0;
+}
+
+@media(max-width:800px){
+    body{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    height: 90px;
+    justify-content:space-around;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    background-color: rgba(202, 202, 202, 0.3);
+
+    font-family: Source+Sans+Pro, Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 2em;  
+    font-style: italic;
+    text-align: left;
+    
+    z-index:1;
+}
+
+a{
+    padding:20px;
+}
+
+a:visited, a:link{
+    color: black;
+}
+
+a:hover{
+    color:rgb(221, 184, 139);
+}
+
+@media(max-width:800px){
+    nav{
+        height: 60px;
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+header{
+    height: 420px;
+    margin-top: 0;
+    background-image: url("IMG_6825.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+    font-family:Cormorant Garamond,Arial, Helvetica, sans-serif;
+    color: rgb(221, 184, 139);
+
+    text-align: center;
+    font-size: 4.5em;
+    font-style:italic;
+
+}
+
+#overlay{
+    background-color: rgba(0,0,0, 0.3);
+}
+
+h1{
+    position:relative;
+    margin: auto;
+    top: 40%;
+}
+
+@media(max-width:800px){
+    header{
+        height: 240px;
+        font-size:2em;
+    }
+
+    h1{
+        top: 55%;
+    }
+}
+
+
+
+/*---------------------------------------------------------*/
+
+#contact img{
+    display: block;
+    width:60%; 
+    margin-top: 0.5cm ; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+.recensioni_div{
+    background-color: rgb(236, 209, 175);
+    display: flex;
+    display: block;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.recensioni_p{
+    text-align: left;
+    font-weight:bolder;
+    font-size: 1em;
+    text-decoration:underline;
+    font-style:oblique;
+}
+
+.recensioni_p2{
+    text-align: left;
+    font-size: 0.75em;
+}
+
+
+#bottone_recensione{
+    display: block;
+    height:50px;
+    background-color: rgb(221, 184, 139);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+}
+
+
+.bottone_no{
+    display: none;
+}
+
+
+.sezione_recensione{
+    margin: 30px 200px 30px 200px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    font-family: Playfair, Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-style: normal;
+}
+
+
+.intestazione{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+}
+
+
+@media(max-width:800px){
+    .sezione_recensione{
+        margin: 30px 80px 30px 80px;
+
+    }
+
+
+    .intestazione{
+        font-size: 1em;
+    }
+}
